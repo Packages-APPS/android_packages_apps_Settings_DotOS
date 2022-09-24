@@ -42,6 +42,13 @@
          settings:enableCopying="true"
          settings:controller="com.android.settings.deviceinfo.firmwareversion.DotVersionPreferenceController"/>
 
+    <!-- DotOS Maintainer  -->
+    <Preference
+        android:key="dot_maintainer"
+        android:title="@string/dot_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DotMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
